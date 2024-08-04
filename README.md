@@ -1,5 +1,5 @@
 
-# Roast and Relax Coffee Shop CRM System
+# Roast and Relax Coffee Shop CMS System
 
 <p align="center"><img src="public/img/rrlogo.png" width="400" alt="Roast and Relax Logo"></p>
 
