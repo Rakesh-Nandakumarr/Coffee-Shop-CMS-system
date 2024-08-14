@@ -42,17 +42,17 @@ class ProductSeeder extends Seeder
                 'image' => 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fultra-hd&psig=AOvVaw2x9H6jLQoSJGFJIyDg7P0C&ust=1716224288995000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCq6OmXmoYDFQAAAAAdAAAAABAE',
             ],
             [
-                'category_id' => 5,
-                'name' => 'Latte',
-                'slug' => Str::slug('Latte'),
-                'description' => 'A smooth and creamy coffee drink made with espresso and steamed milk.',
-                'meta_title' => 'Latte - Smooth and Creamy Coffee',
-                'meta_description' => 'Indulge in the smooth and creamy taste of our Latte, made with espresso and steamed milk.',
-                'meta_keywords' => 'latte, coffee, creamy coffee, steamed milk',
+                'category_id' => 1,
+                'name' => 'Affogato',
+                'slug' => Str::slug('Affogato'),
+                'description' => 'A delicious coffee-based dessert made with a scoop of vanilla ice cream and a shot of espresso.',
+                'meta_title' => 'Affogato - Coffee-Based Dessert',
+                'meta_description' => 'Indulge in the delicious taste of our Affogato, made with vanilla ice cream and a shot of espresso.',
+                'meta_keywords' => 'affogato, coffee, dessert, ice cream, espresso',
                 'stock' => 100,
-                'price' => 3.50,
+                'price' => 4.50,
                 'status' => true,
-                'image' => 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fultra-hd&psig=AOvVaw2x9H6jLQoSJGFJIyDg7P0C&ust=1716224288995000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCq6OmXmoYDFQAAAAAdAAAAABAE',
+                'image' => 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree'
             ],
             [
                 'category_id' => 2,
@@ -81,6 +81,19 @@ class ProductSeeder extends Seeder
                 'image' => 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fultra-hd&psig=AOvVaw2x9H6jLQoSJGFJIyDg7P0C&ust=1716224288995000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCq6OmXmoYDFQAAAAAdAAAAABAE',
             ],
             [
+                'category_id' => 2,
+                'name' => 'Café au Lait',
+                'slug' => Str::slug('Café au Lait'),
+                'description' => 'A coffee drink made with equal parts brewed coffee and steamed milk.',
+                'meta_title' => 'Café au Lait - Coffee with Steamed Milk',
+                'meta_description' => 'Experience the perfect balance of brewed coffee and steamed milk with our Café au Lait.',
+                'meta_keywords' => 'café au lait, coffee, steamed milk, brewed coffee',
+                'stock' => 100,
+                'price' => 3.25,
+                'status' => true,
+                'image' => 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree'
+            ],
+            [
                 'category_id' => 3,
                 'name' => 'Macchiato',
                 'slug' => Str::slug('Macchiato'),
@@ -105,6 +118,19 @@ class ProductSeeder extends Seeder
                 'price' => 3.50,
                 'status' => true,
                 'image' => 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fultra-hd&psig=AOvVaw2x9H6jLQoSJGFJIyDg7P0C&ust=1716224288995000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCq6OmXmoYDFQAAAAAdAAAAABAE',
+            ],
+            [
+                'category_id' => 3,
+                'name' => 'Cortado',
+                'slug' => Str::slug('Cortado'),
+                'description' => 'A coffee drink made with equal parts espresso and steamed milk.',
+                'meta_title' => 'Cortado - Coffee with Steamed Milk',
+                'meta_description' => 'Experience the perfect balance of espresso and steamed milk with our Cortado.',
+                'meta_keywords' => 'cortado, coffee, steamed milk, espresso',
+                'stock' => 100,
+                'price' => 3.25,
+                'status' => true,
+                'image' => 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree'
             ],
             [
                 'category_id' => 4,
@@ -133,6 +159,45 @@ class ProductSeeder extends Seeder
                 'image' => 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fultra-hd&psig=AOvVaw2x9H6jLQoSJGFJIyDg7P0C&ust=1716224288995000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCq6OmXmoYDFQAAAAAdAAAAABAE',
             ],
             [
+                'category_id' => 4,
+                'name' => 'Nitro Cold Brew',
+                'slug' => Str::slug('Nitro Cold Brew'),
+                'description' => 'A smooth and creamy coffee drink made by infusing cold brew coffee with nitrogen gas.',
+                'meta_title' => 'Nitro Cold Brew - Smooth and Creamy Coffee',
+                'meta_description' => 'Experience the smooth and creamy taste of our Nitro Cold Brew, made by infusing cold brew coffee with nitrogen gas.',
+                'meta_keywords' => 'nitro cold brew, coffee, creamy coffee, cold brew coffee',
+                'stock' => 100,
+                'price' => 4.50,
+                'status' => true,
+                'image' => 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree'
+            ],
+            [
+                'category_id' => 5,
+                'name' => 'Latte',
+                'slug' => Str::slug('Latte'),
+                'description' => 'A smooth and creamy coffee drink made with espresso and steamed milk.',
+                'meta_title' => 'Latte - Smooth and Creamy Coffee',
+                'meta_description' => 'Indulge in the smooth and creamy taste of our Latte, made with espresso and steamed milk.',
+                'meta_keywords' => 'latte, coffee, creamy coffee, steamed milk',
+                'stock' => 100,
+                'price' => 3.50,
+                'status' => true,
+                'image' => 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fultra-hd&psig=AOvVaw2x9H6jLQoSJGFJIyDg7P0C&ust=1716224288995000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCq6OmXmoYDFQAAAAAdAAAAABAE',
+            ],
+            [
+                'category_id' => 5,
+                'name' => 'Iced Latte',
+                'slug' => Str::slug('Iced Latte'),
+                'description' => 'A refreshing coffee drink made with espresso, steamed milk, and ice.',
+                'meta_title' => 'Iced Latte - Refreshing Coffee Drink',
+                'meta_description' => 'Cool down with our refreshing Iced Latte, made with espresso, steamed milk, and ice.',
+                'meta_keywords' => 'iced latte, coffee, cold coffee, refreshing drink',
+                'stock' => 100,
+                'price' => 4.00,
+                'status' => true,
+                'image' => 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree'
+            ],
+            [
                 'category_id' => 5,
                 'name' => 'Cold Brew',
                 'slug' => Str::slug('Cold Brew'),
@@ -156,7 +221,7 @@ class ProductSeeder extends Seeder
 
             // remove the image from the product array
             unset($product['image']);
-
+            
 
             $product_model = \App\Models\Product::create($product);
 
@@ -165,6 +230,6 @@ class ProductSeeder extends Seeder
                 ->addMediaFromUrl($image)
                 ->toMediaCollection('featured_image');
 
+            }
         }
-    }
 }
